@@ -1,0 +1,556 @@
+body{
+    padding: 0;
+	margin: 0;
+    width: 100%;
+    height: 100vh;
+    /*background-color: rgb(2, 2, 43);*/
+    /*margin-top:70px;*/
+    font-size:16px;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Henny Penny;
+    color: whitesmoke;
+}
+
+p{
+    font-family: Lobster Two;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.fsize{
+    font-size: 25px;
+}
+
+/*a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+  }*/
+
+/*My Navbar*/
+
+.bg-dark{
+    background-color: black !important;
+}
+
+.navbar-dark{
+    background: #fff ;
+    border:0;
+    font-family: Henny Penny;
+}
+
+.navbar-brand{
+    font-size:38px;
+    color: darkslategray !important;
+    font-weight:bold;
+}
+
+.myNavBar a{
+    text-align: center;
+    color: darkslategrey !important;
+  font-size: 26px;
+  padding-left: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.myNavBar a:hover{
+    border-bottom: 3px solid dimgray;
+}
+
+.active{
+    border: 3px solid dimgray;
+}
+
+/*Carousel*/
+/*#intro{
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.carousel-caption{
+    padding-bottom: 20px;
+}
+
+.carousel-inner > .item {
+    height: 400px;
+ }
+ 
+/***************************Index****************************/
+ /*Intro*/
+
+ header .carousel-inner .item{
+     height: 100px;
+ }
+
+ #intro{
+    margin-top: 80px;
+    overflow: hidden;
+    height: 100vh;
+    padding: 0;
+    padding-top: 5px !important;
+}
+.carousel-item{
+    height: 40rem;
+    color: black;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.Car_cap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+}
+
+.Car_cap h2 h3{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.Car_cap fear{
+    padding-right: 300px !important;
+}
+
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: black;
+    background-position: center;
+    background-size: cover;
+}
+
+.feature_section{
+    padding: 25px;
+}
+
+/*Categories*/
+.head_container{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.feature_section{
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+.categories{
+    margin: 5px;
+    padding: 5px;
+}
+
+ /*summary*/
+.summary{
+    margin: auto;
+  padding: 2px;
+}
+
+.my_circlePic{
+  padding: 0;
+  margin-top: 50px;
+  margin-right: 200px;
+
+}
+
+.Summary-text{
+    padding-top: 8px;
+    color: blanchedalmond;
+}
+
+
+.know-more{
+    padding: 20px;
+    padding-left: 30px;
+    margin: 10px;
+    justify-content: left !important;
+}
+
+
+/*************************About***************************/
+.ab-jumbo h1{
+    font-weight: bold;
+    color: dimgray !important;
+}
+
+.ab-jumbo p{
+    font-weight: bold;
+    color: dimgray !important;
+}
+.about-b{
+    padding-top: 65px !important; 
+    background-color: #5b6467 !important;
+    background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%) !important;
+}
+
+#info1{
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#info1 img {
+    width: 80%;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+#info1 .info-left{
+    margin-top:90px;
+  }
+
+#info1 .info-right{
+  margin-top:90px;
+}
+
+#info2{
+    margin-top:20px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+#info2 img {
+    width: 80%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+
+#info2 .info-left{
+    margin-top:90px;
+  }
+
+#info2 .info-right{
+  margin-top:90px;
+}
+
+/*
+#info2 .info-left{
+  margin-top:90px;
+}
+*/
+
+.about-info{
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    color: whitesmoke;
+    font-size: 23px;
+}
+
+
+/****************Login Form*******************/
+
+.my_form{
+    padding-top: 80px !important;
+
+    background: black !important;
+}
+
+.my_form h1{
+    text-align: center;
+}
+
+.form-group{
+    font-family: Lobster Two; 
+    /*position: relative;*/
+}
+
+.bg_form{
+    background: url(../images/Form_img.jpg) no-repeat!important;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*
+.form-container{
+    border: 0px solid;
+    padding: 50px 60px;
+    margin-top: 20vh;
+    font-size: 25px;
+    color: whitesmoke;
+    box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 1);
+}
+*/
+
+.form-login{
+    border: 0px solid;
+    padding: 50px 60px;
+    /*margin-bottom: 30px;*/
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 25px;
+    color: whitesmoke;
+    box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 1);
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.login-footer{
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+
+.login-txt{
+    padding: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/********************End Login Form********************/
+
+/********************Contact Us***********************/
+.my_contact{
+    /*padding-top: 65px !important;*/
+
+    background-color: #166d3b;
+    background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+    /*background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);*/
+}
+
+.my_contact h1{
+    text-align: center;
+}
+
+.bg_contact{
+    height: 100vh;
+}
+
+.bg-contact-box{
+    padding: 20px;
+    border: 1px solid whitesmoke;
+}
+
+.contact-login{
+    color: whitesmoke;
+    padding: 30px 90px;
+    font-size: 30px;
+    /*box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.6);*/
+}
+
+.control-contact, .control-contact:focus{
+    background: transparent;
+    color: white;
+    font-size: 20 px !important;
+}
+
+.control-contact{
+    border: 1px solid whitesmoke;
+}
+
+.label{
+    color: whitesmoke;
+    font-weight: normal;
+}
+
+
+/******************Sign Up**********************/
+.my_signup{
+    /*padding-top: 65px !important;*/
+
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    /*background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);*/
+    /*background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);*/
+}
+
+.my_signup h1{
+    text-align: center;
+}
+
+.bg_signup{
+    height: 100vh;
+}
+
+.bg-signup-box{
+    background-image: url(../images/SignUp.jpg);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup-login{
+    color: whitesmoke;
+    padding: 30px 90px;
+    font-size: 30px;
+    /*box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.6);*/
+}
+
+.control-signup, .control-signup:focus{
+    background: transparent;
+    color: fff !important;
+    color: whitesmoke !important;
+}
+
+.control-signup{
+    border: 3px solid whitesmoke;
+}
+
+
+
+
+/*********************Footer*****************/
+.footer-txt{
+    color: darkslategray;
+}
+
+.footer-val{
+    border-top: 10px solid grey !important;
+}
+
+
+/****************Comments*******************/
+
+.txt-area{
+    overflow: hidden !important;
+    margin-bottom: auto;
+}
+
+#allcomments{
+    justify-content: center !important;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 5px;
+    border: solid 2px gray;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px silver;
+    overflow: hidden;
+}
+
+ul#pastcomments{
+    list-style-type: none;
+}
+
+ul#pastcomments li:before{
+    font-family: Lobster Two !important;
+    content: "\f086";
+    font-size: 24pt;
+    color: gray;
+    margin-left: -48px;
+    padding-right: 10px;
+    position: relative;
+    top: 8px;
+}
+
+ul#pastcomments li{
+    margin: 0 0 2em 0;
+    padding: 5px;
+    color: whitesmoke;
+    font-family: Lobster Two;
+}
+
+ul#pastcomments li span{
+    font-size: 80%;
+    color: grey;
+    font-style: italic;
+}
+
+form#newcomment{
+    border: 0px;
+    padding: 20px;
+    box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.5);
+}
+
+form.cmnt-txt{
+    font-family: Lobster Two;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+form#newcomment textarea{
+    height: 70px;
+}
+
+form#newcomment label{
+    display: inline-block;
+    margin: 1px 0 0 0;
+}
+
+#allcomments h1{
+    font-size: 45 px;
+    font-weight: bolder;
+}
+
+
+.cmnt-box, .cmnt-box-focus{
+    background: transparent;
+    color: fff !important;
+    color: whitesmoke !important;
+}
+
+.cmnt-box{
+    border: 3px solid whitesmoke;
+    margin-bottom: 10px;
+}
+
+
+/*body bg*/
+.horror_bg{
+	background-image: url(./images/HalloweenBG6.png);
+}
+
+/****************************Horror Stories*********************************/
+.my_header1{
+    text-align: center;
+    margin: 20px;
+}
+
+.horror_text{
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+    color: whitesmoke;
+    margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*Slender man*/
+.slender-header{
+    color: black;
+}
+
+
+
+.story-head{
+    padding-top: 65px !important;
+}
+
+.emily{
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 

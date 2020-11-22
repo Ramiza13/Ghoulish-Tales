@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emily Rose</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <!---Animation-->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand font-weight-bolder" href="#">GHOULISH Tales</a>
+
+        <div class="collapse navbar-collapse myNavBar" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sign_up.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="log_in.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact_us.html">Contact Us</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <br>
+  <hr>
+
+  <div class="container story-head emily">
+    <div class="row">
+      <div class="col-md-6 col-lg-6 info-left">
+        <img src="./images/Emily Rose 2.jpg" alt="Roland Doe">
+      </div>
+      <div class="col-md-6 col-lg-6 info-right">
+        <h1>The exorcism of Emily Rose</h1>
+        <p>In 1968, when she was 17 and still in high school, Anneliese began to suffer from convulsions. Court findings
+          have her experiencing her first epileptic attack in 1969. It was then that a neurologist at the Psychiatric
+          Clinic Wurzburg diagnosed her with Grand Mal epilepsy. Soon, Anneliese started experiencing devilish
+          hallucinations while praying. She also began to hear voices, which told her that she was damned. The court
+          determined that by 1973 Anneliese was suffering from depression and considering suicide. In 1975, convinced
+          that she was possessed, her parents gave up on the doctors from the psychiatric clinic.</p>
+        <p>In mid-1949, several newspaper articles printed anonymous reports of an alleged possession and exorcism. The
+          source for these reports is thought to be the family's former pastor, Luther Miles Schulze.[1] According to
+          one account, a total of "forty-eight people witnessed this exorcism, nine of them Jesuits.During the exorcism,
+          the boy allegedly slipped one of his hands out of the restraints, broke a bedspring from under the mattress,
+          and used it as an impromptu weapon, slashing the priest's arm and resulting in the exorcism ritual being
+          halted.</p>
+      </div>
+    </div>
+    <h3>To read more stories <a href="horror_stories.html" style="color: white;" style="font-weight: bold;">Click Here</a></h3>
+  </div>
+
+  <br>
+  <hr>
+
+
+  <!----Comments------->
+  <div id="allcomments" class="container txt-area">
+    <h1>Comments</h1>
+    <!-- We will show past comments in the list below-->
+    <ul id="pastcomments"></ul>
+    <!-- This is the form for entering a new comment -->
+    <form id="newcomment" class="cmnt-txt">
+      <label for="tbName">First Name or Initials</label>
+      <br>
+      <input id="tbName" type="text" placeholder="Enter Your Name" class="cmnt-box" maxlength="20" required>
+      <br>
+      <label for="txComment">Your Comment / Question</label>
+      <br>
+      <textarea id="txComment" placeholder="Share your own thoughts and experiences" class="cmnt-box" maxlength="4096"
+        required style="width:96%"></textarea>
+      <br>
+      <input type="submit" id="btnSubmitComment" value="Submit Comment">
+    </form>
+  </div>
+
+  <br>
+  <hr>
+
+  <footer class="footer_val">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h2>Let us know </h2>
+          <p>All of you are welcome to share your own experiences.</p>
+        </div>
+        <div class="col-sm">
+          <h3>
+            <p>Contact Us:</p>
+          </h3>
+          <h2><a href="Contact_us.html">Click Here</a></h2>
+        </div>
+        <div class="col-sm">
+          <h3>
+            <p>To get regular updates</p>
+            <a href="sign_up.html" style="color: darkslategrey;">Sign Up</a>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+          https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+  <script>
+    //Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAJS2cUWrgJdRGwhQqmDbhiwcfRK-fzZkM",
+      authDomain: "projectghoulish-62d9f.firebaseapp.com",
+      databaseURL: "https://projectghoulish-62d9f.firebaseio.com",
+      projectId: "projectghoulish-62d9f",
+      storageBucket: "projectghoulish-62d9f.appspot.com",
+      messagingSenderId: "1068659275600",
+      appId: "1:1068659275600:web:0c0e80f71e756c7bbf1e55"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+
+    ///////////Storing comments//////////////
+    //Rootref is the whole database.
+    const rootRef = firebase.database().ref();
+    //commentsRef is just the pageCountsNode
+    const commentsRef = rootRef.child('comments');
+    //Listen for click on Submit Comment button, and post comment.
+    document.getElementById("btnSubmitComment").addEventListener("click", function () {
+      //Replace line breaks in comment with br tags.
+      var newcomment = document.getElementById('txComment').value.replace(/\n/g, "<br>");
+      //Define a new, keyed post.
+      var newPostRef = commentsRef.push();
+      //Fill tne new keyed post with data
+      newPostRef.set({
+        name: document.getElementById('tbName').value.trim(),
+        comment: newcomment.trim(),
+        frompage: location.pathname,
+        when: firebase.database.ServerValue.TIMESTAMP
+      });
+    });
+
+
+
+    /////////////Displaying Comments//////////////////
+    function showpastcomments() {
+      var showat = document.getElementById('pastcomments');
+      //Get comments whose from page equals this page's pathname.
+      var commentsRef = firebase.database().ref('comments/').orderByChild('frompage').equalTo(location.pathname);
+      commentsRef.once('value', function (snapshot) {
+        snapshot.forEach(function (itemSnapshot) {
+          //Get the object for one snapshot
+          var itemData = itemSnapshot.val();
+          var comment = itemData.comment;
+          var name = itemData.name;
+          var when = new Date(itemData.when).toLocaleDateString("en-us");
+          showat.innerHTML += "<li>" + comment + "<span> -- " + name + " (" + when +
+            ")</span></li>";
+        })
+      })
+    }
+    //Called when page first opens and also after Submit button click to show all comments for this page.
+    showpastcomments()
+
+  </script>
+
+
+  <script src="test.js"></script>
+  <!-- jQuery and JS bundle w/ Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(window).scroll(function () {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
+    });
+  </script>
+
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.info-left', {
+      duration: 2000,
+      origin: 'left',
+      distance: '300px',
+      viewFactor: 0.2
+    });
+    sr.reveal('.info-right', {
+      duration: 5000,
+      origin: 'right',
+      distance: '300px',
+      viewFactor: 0.2
+    });
+  </script>
+
+
+  <script>
+    $(function () {
+      // Smooth Scrolling
+      $('a[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
